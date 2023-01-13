@@ -1,8 +1,8 @@
-import react from 'react';
+import React from 'react';
 
-declare class List extends react.Component<any, any> {
+declare class List extends React.Component<any, any> {
     constructor(props: any);
-    render(): react.ReactNode;
+    render(): React.ReactNode;
 }
 
 export { List };

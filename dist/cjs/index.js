@@ -2,8 +2,6 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var jsxRuntime = require('react/jsx-runtime');
-
 function createCommonjsModule(fn, module) {
 	return module = { exports: {} }, fn(module, module.exports), module.exports;
 }
@@ -2851,7 +2849,8 @@ class List extends react.Component {
         super(props);
     }
     render() {
-        return jsxRuntime.jsx(jsxRuntime.Fragment, { children: jsxRuntime.jsx("h1", { children: "This is lib" }) });
+        return react.createElement(react.Fragment, null,
+            react.createElement("h1", null, "This is lib"));
     }
 }
 

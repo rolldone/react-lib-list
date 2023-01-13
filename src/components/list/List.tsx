@@ -1,12 +1,12 @@
-import react from 'react';
+import React from "react";
 
-export default class List extends react.Component<any, any>{
-  
+export default class List extends React.Component<any, any>{
+
   constructor(props: any) {
     super(props);
   }
 
-  render(): react.ReactNode {
+  render(): React.ReactNode {
     return <>
       <h1>This is lib</h1>
     </>
