@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "esnext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": true,
+    // Ini url dari source map untuk akses file aslinya dan disini settingnnya
+    "sourceRoot": "",
+  },
+  "include": ["src/**/*", "global.d.ts", "global.d.ts"],
+  "exclude": [
+    "./dist",
+    "./node_modules"
+  ]
+}
