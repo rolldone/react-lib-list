@@ -1,3 +1,5 @@
+import { jsx, Fragment as Fragment$1 } from 'react/jsx-runtime';
+
 function createCommonjsModule(fn, module) {
 	return module = { exports: {} }, fn(module, module.exports), module.exports;
 }
@@ -2843,6 +2845,9 @@ if (process.env.NODE_ENV === 'production') {
 class List extends react.Component {
     constructor(props) {
         super(props);
+    }
+    render() {
+        return jsx(Fragment$1, { children: jsx("h1", { children: "This is lib" }) });
     }
 }
 

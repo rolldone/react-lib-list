@@ -38,7 +38,7 @@ export default [
       }),
       commonjs()
     ],
-    external: [],
+    external: ["react/jsx-runtime"],
   },
   {
     input: 'dist/esm/types/index.d.ts',
